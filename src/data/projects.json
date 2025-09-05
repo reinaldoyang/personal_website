@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Computer Vision Intelligent System",
+    "image": "special-topic-project.png",
+    "description": "Developed an intelligent vision system to enable a robot to stack cubes based on their colors. The system uses traditional computer vision techniques or deep learning model YOLOv5 to detect and classify cubes and converts 2D image coordinates into 3D robot coordinates for precise manipulation",
+    "github": "https://github.com/reinaldoyang/Colored-Cube-Stacking",
+    "demo": "https://youtube.com/shorts/l-J5OpIGRYQ?si=2TvC84bkYl1oil3E"
+  },
+  {
+    "title": "Robot Car",
+    "image": "robot-car.png",
+    "description": "Designed and built an Arduino-based robotic vehicle capable of line following, object picking with a vacuum, and motor control, complemented by a custom Android app for manual operation. Responsible for electrical design, component selection, and complete wiring implementation.",
+    "github": "",
+    "demo": ""
+  },
+  {
+    "title": "GarudaHack Hackathon",
+    "image": "garudahack.png",
+    "description": "Developed a React Native app in 72 hours to introduce technology to underdeveloped communities in Indonesia, earning an Honorable Mention award.",
+    "github": "https://github.com/reinaldoyang/GarudaHack-3.0",
+    "demo": "https://youtu.be/sn5Gm46DvUE?si=VK6F2kMEMrzlD_FU"
+  }
+]

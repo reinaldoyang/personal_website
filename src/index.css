@@ -1,0 +1,8 @@
+/* Make the whole page background black and text white */
+body {
+  background-color: #000; /* black background */
+  color: #fff;            /* default text color white */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}

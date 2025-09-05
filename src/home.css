@@ -1,0 +1,56 @@
+.profile-section {
+  display: flex;
+  flex-direction: row; /* image left, text right by default */
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  text-align: center;
+  margin-top: 20vh;
+  flex-wrap: wrap; /* allow wrapping on smaller screens */
+}
+
+.profile-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: 50% 10%;
+  flex-shrink: 0;
+}
+
+.profile-name {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+.profile-paragraph {
+  max-width: 400px;
+  color: #fff;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+/* Responsive adjustments for screens ≤780px */
+@media (max-width: 780px) {
+  .profile-section {
+    flex-direction: column; /* stack image and text vertically */
+    text-align: center;
+  }
+
+  .profile-image {
+    width: 150px;
+    height: 150px;
+  }
+
+  .profile-name {
+    font-size: 1.8rem;
+  }
+
+  .profile-paragraph {
+    max-width: 90%;
+    margin: 0 auto;
+    font-size: 0.95rem;
+    text-align: justify;
+  }
+}
